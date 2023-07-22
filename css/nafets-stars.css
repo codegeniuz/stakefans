@@ -1,0 +1,538 @@
+.nafets-stars {
+	max-width:250px;
+}
+
+.nafets-stars div.stars {
+	background-position:0 0;
+	background-repeat:repeat-x;
+	position:relative;
+}
+
+.nafets-stars_hide {
+	display:none;
+}
+
+.nafets-stars_table {
+	width: 100%;
+	margin-bottom: 5px;
+	display: table;
+}
+.nafets-stars_table .nafets-stars_table-row {
+	display: table-row;
+}
+.nafets-stars_table .nafets-stars_table-col {
+	line-height: 24px;
+	display: table-cell;
+}
+.nafets-stars_table .nafets-stars_table-col:first-child {
+	width: 35%;
+	padding-right: 2px;
+	text-align: right;
+}
+.nafets-stars_table .nafets-stars_table-col:last-child {
+	width: 65%;
+	padding-left: 2px;
+	text-align: left;
+}
+
+.nafets-stars div.stars.stars-12 {
+	width:120px;
+	height:12px;
+	background-image:url(../images/stars-12.png);
+}
+
+.nafets-stars div.stars.stars-14 {
+	width:140px;
+	height:14px;
+	background-image:url(../images/stars-14.png);
+}
+
+.nafets-stars div.stars.stars-16 {
+	width:160px;
+	height:16px;
+	background-image:url(../images/stars-16.png);
+}
+
+.nafets-stars div.stars.stars-18 {
+	width:180px;
+	height:18px;
+	background-image:url(../images/stars-18.png);
+}
+
+.nafets-stars div.stars.stars-20 {
+	width:200px;
+	height:20px;
+	background-image:url(../images/stars-20.png);
+}
+
+.nafets-stars div.stars.stars-22 {
+	width:220px;
+	height:22px;
+	background-image:url(../images/stars-22.png);
+}
+
+.nafets-stars div.stars.stars-25 {
+	width:250px;
+	height:25px;
+	background-image:url(../images/stars-25.png);
+}
+
+.nafets-stars div.stars div.vote {
+	width:0;
+	background-repeat:repeat-x;
+}
+
+.nafets-stars div.stars.stars-12 div.vote {
+	height:12px;
+	background-image:url(../images/stars-12.png);
+	background-position:0 -24px;
+}
+
+.nafets-stars div.stars.stars-14 div.vote {
+	height:14px;
+	background-image:url(../images/stars-14.png);
+	background-position:0 -28px;
+}
+
+.nafets-stars div.stars.stars-16 div.vote {
+	height:16px;
+	background-image:url(../images/stars-16.png);
+	background-position:0 -32px;
+}
+
+.nafets-stars div.stars.stars-18 div.vote {
+	height:18px;
+	background-image:url(../images/stars-18.png);
+	background-position:0 -36px;
+}
+
+.nafets-stars div.stars.stars-20 div.vote {
+	height:20px;
+	background-image:url(../images/stars-20.png);
+	background-position:0 -40px;
+}
+
+.nafets-stars div.stars.stars-22 div.vote {
+	height:22px;
+	background-image:url(../images/stars-22.png);
+	background-position:0 -44px;
+}
+
+.nafets-stars div.stars.stars-25 div.vote {
+	height:25px;
+	background-image:url(../images/stars-25.png);
+	background-position:0 -52px;
+}
+
+.nafets-stars div.stars div.star {
+	width:0;
+	cursor:pointer;
+	position:absolute;
+	top:0;
+	left:0;
+}
+
+.nafets-stars div.stars.stars-12 div.star {
+	height:12px;
+}
+
+.nafets-stars div.stars.stars-14 div.star {
+	height:14px;
+}
+
+.nafets-stars div.stars.stars-16 div.star {
+	height:16px;
+}
+
+.nafets-stars div.stars.stars-18 div.star {
+	height:18px;
+}
+
+.nafets-stars div.stars.stars-20 div.star {
+	height:20px;
+}
+
+.nafets-stars div.stars.stars-22 div.star {
+	height:22px;
+}
+
+.nafets-stars div.stars.stars-25 div.star {
+	height:25px;
+}
+
+.nafets-stars div.stars div.star:hover {
+	background-repeat:repeat-x;
+}
+
+.nafets-stars div.stars.stars-12 div.star:hover {
+	background-image:url(../images/stars-12.png);
+	background-position:0 -12px;
+}
+
+.nafets-stars div.stars.stars-14 div.star:hover {
+	background-image:url(../images/stars-14.png);
+	background-position:0 -14px;
+}
+
+.nafets-stars div.stars.stars-16 div.star:hover {
+	background-image:url(../images/stars-16.png);
+	background-position:0 -16px;
+}
+
+.nafets-stars div.stars.stars-18 div.star:hover {
+	background-image:url(../images/stars-18.png);
+	background-position:0 -18px;
+}
+
+.nafets-stars div.stars.stars-20 div.star:hover {
+	background-image:url(../images/stars-20.png);
+	background-position:0 -20px;
+}
+
+.nafets-stars div.stars.stars-22 div.star:hover {
+	background-image:url(../images/stars-22.png);
+	background-position:0 -22px;
+}
+
+.nafets-stars div.stars.stars-25 div.star:hover {
+	background-image:url(../images/stars-25.png);
+	background-position:0 -27px;
+}
+
+.nafets-stars div.stars.stars-12 div.star.star10 {
+	width:120px;
+}
+
+.nafets-stars div.stars.stars-12 div.star.star9 {
+	width:108px;
+}
+
+.nafets-stars div.stars.stars-12 div.star.star8 {
+	width:96px;
+}
+
+.nafets-stars div.stars.stars-12 div.star.star7 {
+	width:84px;
+}
+
+.nafets-stars div.stars.stars-12 div.star.star6 {
+	width:72px;
+}
+
+.nafets-stars div.stars.stars-12 div.star.star5 {
+	width:60px;
+}
+
+.nafets-stars div.stars.stars-12 div.star.star4 {
+	width:48px;
+}
+
+.nafets-stars div.stars.stars-12 div.star.star3 {
+	width:36px;
+}
+
+.nafets-stars div.stars.stars-12 div.star.star2 {
+	width:24px;
+}
+
+.nafets-stars div.stars.stars-12 div.star.star1 {
+	width:12px;
+}
+
+.nafets-stars div.stars.stars-14 div.star.star10 {
+	width:140px;
+}
+
+.nafets-stars div.stars.stars-14 div.star.star9 {
+	width:126px;
+}
+
+.nafets-stars div.stars.stars-14 div.star.star8 {
+	width:112px;
+}
+
+.nafets-stars div.stars.stars-14 div.star.star7 {
+	width:98px;
+}
+
+.nafets-stars div.stars.stars-14 div.star.star6 {
+	width:84px;
+}
+
+.nafets-stars div.stars.stars-14 div.star.star5 {
+	width:70px;
+}
+
+.nafets-stars div.stars.stars-14 div.star.star4 {
+	width:56px;
+}
+
+.nafets-stars div.stars.stars-14 div.star.star3 {
+	width:42px;
+}
+
+.nafets-stars div.stars.stars-14 div.star.star2 {
+	width:28px;
+}
+
+.nafets-stars div.stars.stars-14 div.star.star1 {
+	width:14px;
+}
+
+.nafets-stars div.stars.stars-16 div.star.star10 {
+	width:160px;
+}
+
+.nafets-stars div.stars.stars-16 div.star.star9 {
+	width:144px;
+}
+
+.nafets-stars div.stars.stars-16 div.star.star8 {
+	width:128px;
+}
+
+.nafets-stars div.stars.stars-16 div.star.star7 {
+	width:112px;
+}
+
+.nafets-stars div.stars.stars-16 div.star.star6 {
+	width:96px;
+}
+
+.nafets-stars div.stars.stars-16 div.star.star5 {
+	width:80px;
+}
+
+.nafets-stars div.stars.stars-16 div.star.star4 {
+	width:64px;
+}
+
+.nafets-stars div.stars.stars-16 div.star.star3 {
+	width:48px;
+}
+
+.nafets-stars div.stars.stars-16 div.star.star2 {
+	width:32px;
+}
+
+.nafets-stars div.stars.stars-16 div.star.star1 {
+	width:16px;
+}
+
+.nafets-stars div.stars.stars-18 div.star.star10 {
+	width:180px;
+}
+
+.nafets-stars div.stars.stars-18 div.star.star9 {
+	width:162px;
+}
+
+.nafets-stars div.stars.stars-18 div.star.star8 {
+	width:144px;
+}
+
+.nafets-stars div.stars.stars-18 div.star.star7 {
+	width:126px;
+}
+
+.nafets-stars div.stars.stars-18 div.star.star6 {
+	width:108px;
+}
+
+.nafets-stars div.stars.stars-18 div.star.star5 {
+	width:90px;
+}
+
+.nafets-stars div.stars.stars-18 div.star.star4 {
+	width:72px;
+}
+
+.nafets-stars div.stars.stars-18 div.star.star3 {
+	width:54px;
+}
+
+.nafets-stars div.stars.stars-18 div.star.star2 {
+	width:36px;
+}
+
+.nafets-stars div.stars.stars-18 div.star.star1 {
+	width:18px;
+}
+
+.nafets-stars div.stars.stars-20 div.star.star10 {
+	width:200px;
+}
+
+.nafets-stars div.stars.stars-20 div.star.star9 {
+	width:180px;
+}
+
+.nafets-stars div.stars.stars-20 div.star.star8 {
+	width:160px;
+}
+
+.nafets-stars div.stars.stars-20 div.star.star7 {
+	width:140px;
+}
+
+.nafets-stars div.stars.stars-20 div.star.star6 {
+	width:120px;
+}
+
+.nafets-stars div.stars.stars-20 div.star.star5 {
+	width:100px;
+}
+
+.nafets-stars div.stars.stars-20 div.star.star4 {
+	width:80px;
+}
+
+.nafets-stars div.stars.stars-20 div.star.star3 {
+	width:60px;
+}
+
+.nafets-stars div.stars.stars-20 div.star.star2 {
+	width:40px;
+}
+
+.nafets-stars div.stars.stars-20 div.star.star1 {
+	width:20px;
+}
+
+.nafets-stars div.stars.stars-22 div.star.star10 {
+	width:220px;
+}
+
+.nafets-stars div.stars.stars-22 div.star.star9 {
+	width:198px;
+}
+
+.nafets-stars div.stars.stars-22 div.star.star8 {
+	width:176px;
+}
+
+.nafets-stars div.stars.stars-22 div.star.star7 {
+	width:154px;
+}
+
+.nafets-stars div.stars.stars-22 div.star.star6 {
+	width:132px;
+}
+
+.nafets-stars div.stars.stars-22 div.star.star5 {
+	width:110px;
+}
+
+.nafets-stars div.stars.stars-22 div.star.star4 {
+	width:88px;
+}
+
+.nafets-stars div.stars.stars-22 div.star.star3 {
+	width:66px;
+}
+
+.nafets-stars div.stars.stars-22 div.star.star2 {
+	width:44px;
+}
+
+.nafets-stars div.stars.stars-22 div.star.star1 {
+	width:22px;
+}
+
+.nafets-stars div.stars.stars-25 div.star.star10 {
+	width:250px;
+}
+
+.nafets-stars div.stars.stars-25 div.star.star9 {
+	width:225px;
+}
+
+.nafets-stars div.stars.stars-25 div.star.star8 {
+	width:200px;
+}
+
+.nafets-stars div.stars.stars-25 div.star.star7 {
+	width:175px;
+}
+
+.nafets-stars div.stars.stars-25 div.star.star6 {
+	width:150px;
+}
+
+.nafets-stars div.stars.stars-25 div.star.star5 {
+	width:125px;
+}
+
+.nafets-stars div.stars.stars-25 div.star.star4 {
+	width:100px;
+}
+
+.nafets-stars div.stars.stars-25 div.star.star3 {
+	width:75px;
+}
+
+.nafets-stars div.stars.stars-25 div.star.star2 {
+	width:50px;
+}
+
+.nafets-stars div.stars.stars-25 div.star.star1 {
+	width:25px;
+}
+
+.nafets-stars div.text p {
+	margin:0;
+	line-height:18px;
+	text-align:center;
+}
+
+.nafets-stars-thumbs {
+	min-width:172px;
+	height:43px;
+	display:table;
+}
+
+.nafets-stars-thumbs div.thumb {
+	min-width:86px;
+	height:43px;
+	cursor:pointer;
+	display:table-cell;
+}
+
+.nafets-stars-thumbs div.thumb.nocursor {
+	cursor:inherit;
+}
+
+.nafets-stars-thumbs div.thumb span.icon {
+	width:43px;
+	height:43px;
+	display:table-cell;
+}
+
+.nafets-stars-thumbs div.thumb span.icon svg {
+	width:100%;
+	height:100%;
+	fill:green;
+}
+
+.nafets-stars-thumbs div.thumb.thumb_down span.icon svg {
+	transform:rotate(180deg);
+	fill:red;
+}
+
+.nafets-stars-thumbs div.thumb span.value {
+	min-width:43px;
+	height:43px;
+	text-align:center;
+	padding:0 5px;
+	box-sizing:border-box;
+	vertical-align:middle;
+	display:table-cell;
+}
+
+.nafets-stars-thumbs div.thumb:hover span.icon svg {
+	opacity:.6;
+}
+
+.nafets-stars-thumbs div.thumb.nocursor:hover span.icon svg {
+	opacity:1;
+}
